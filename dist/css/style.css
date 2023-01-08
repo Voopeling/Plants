@@ -312,6 +312,28 @@
   transform: translate(-100%, -50%) rotate(-45deg);
 }
 
+.footer .wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 130px;
+  font-size: 20px;
+}
+
+.footer__git {
+  max-width: 180px;
+  flex: 1;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__mes {
+  max-width: 190px;
+  flex: 1;
+  display: flex;
+  justify-content: space-between;
+}
+
 body {
   margin: 0;
   font-family: "Inter", sans-serif;
